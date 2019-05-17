@@ -32,13 +32,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -233,11 +233,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj">
+    <ProjectReference Include="..\..\Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj">
       <Project>{71145d0b-996d-47b5-891f-4269fce0245d}</Project>
       <Name>CreateCustomer.API</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CPUserControls\CPUserControls\CPUserControls.csproj">
+    <ProjectReference Include="..\..\CPUserControls\CPUserControls\CPUserControls.csproj">
       <Project>{dd27dba7-3b2b-4d04-805c-f288013294d5}</Project>
       <Name>CPUserControls</Name>
     </ProjectReference>
